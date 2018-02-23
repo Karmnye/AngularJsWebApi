@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+strong, h1,h2,h3,h4{font-weight:900}
+h3{font-size:20px;}
+body{background-color:#205867; font-size:12px; font-family: 'Lato', sans-serif;}
+.white_bg{background:#fff; width:100%; float:left}
+
+.rounded_box{
+	  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+.header{width:100%; float:left; margin-top:10px; padding:10px 0}
+.menu{width:100%; float:left; padding:4px 0 ; margin:4px 0}
+.menu ul{margin:0 ; padding:0}
+.menu ul li{display:inline-block; list-style-type:none; padding-right:20px}
+.content_container{width:100%; float:left; padding:25px 0}
+
+.fa{color:#9e9e9e}
+.fa-3{font-size:28px !important;  }
+ .content_container  h3{margin-top:0; margin-bottom:10px;}
+.table-striped>tbody>tr:nth-of-type(odd){background-color: transparent !important}
+.danger{color:#d9534f}
+.success{color:#4cae4c}
+.grey{color:#949494}
+.table-responsive {
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+.table-responsive .fa{font-size:18px;}
+.button{background-color:#92cddc; padding:5px 15px; color:#000;  text-align:center; cursor:pointer;}
+.button_update{background-color:#92cddc; padding:5px 15px; color:#000; width:70%; margin:0 15%; float:left; text-align:center; cursor:pointer; }
+.button_view{background-color:#d7d7d7; padding:5px 0px; color:#000; width:70%; margin:0 15%; float:left; text-align:center; cursor:pointer}
+.button_update:hover, .button_view:hover{text-decoration:none;}
+.footer{width:100%; padding:10px 0; float:left; margin:5px 0 10px 0}
+.profile-wrapper{width:100%; float:left; text-align:right}
+.title_text, strong{font-size:16px}
+.grey_bg{background-color:#f2f2f2; padding:20px 0; font-size:16px;     margin: 1% 0.2%;}
+.grey_bg textarea{width:100%; resize:none; height:251px;}
+.g_number select{width:70%; max-width:300px; padding:8px }
+.approval_small_select{width:100%; max-width:300px; padding:8px }
+.g_number, .g_title, .projectperiod , .budgetperiod, .g_padding{font-weight:700; float:left;  width:100%}
+.g_number, .g_title, .g_padding{margin:10px 0}
+.buttons{background-color:#f2f2f2; padding:5px 20px; color:#000; cursor:pointer }
+ .buttons:hover{ color:#000; text-decoration:none }
+.buttons_blue{background-color:#0070c0; padding:5px 20px; color:#fff; cursor:pointer }
+
+
+.buttons.disabled{color:#7e7e7e;}
+.fa{padding:0 2px;}
+.addbutton {
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    width: 108px !important;
+    float: left ;
+    font-size: 10px;
+    line-height: 10px;
+}
+.fa-trash-o, .fa-plus-circle{font-size:21px !important; float:left}
+.addbutton{color:#000; cursor:pointer}
+.border{width:98%; float:left; border:1px solid #000; padding:2%; background-color:#fff; margin:1%;}
+.checkboxes_popup ul{list-style-type:none; padding:10px 0; margin:10px 0; font-size:14px}
+.checkboxes_popup ul li:nth-child(even) {
+    background-color: #dbeef3;   
+}
+.checkboxes_popup{width:100%; float:left}
+.checkboxes_popup input[type='checkbox']{    margin: 2px 15px 2px 5px;
+    float: left;}
+.checkboxes_popup ul li{padding:5px 0 ; margin:5px 0;}
+.checkboxes_popup label{margin-bottom:0}
+.checkboxes_popup input[type=checkbox]:checked + label {
+  color: #ea700d;
+  
+} 
+.table-responsive th{font-size:16px; font-weight:bold}
+.approval_request_container{width:100%; float:left}
+.fsize18{font-size:15px; }
+p.fsize18{margin:10px; }
+.bold{font-weight:bold}
+.outer_border{border:2px solid #d6d6d6}
+.outer_border tr{border-bottom:1px solid #a5a5a5; }
+.outer_border td{padding:10px  !important}
+.addbutton_request {
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    width: 108px !important;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+}
+.approval_request_wrapper{width:100%; float:left; margin:20px 0; padding:10px}
+.approval_request_wrapper:nth-child(even){background-color:#f2f2f2}
+.approval_request_wrapper .table-responsive{background-color:#fff}
+.red{color:#c70000}
+.w100{width:100%}
+@media (min-width: 768px){
+.col-sm-6 {
+    width: 49.6% !important;
+}
+}
